@@ -12,7 +12,7 @@ header.project-masthead {
   }
 
 #mainNav {
-    background-color: #141414 !important;
+    background-color: #2c2c2c !important;
     /*background-image: linear-gradient(to right, rgba(120, 66, 255, 1), rgba(105, 99, 212, 1) 20%, rgba(66, 255, 173, 1)) !important;*/
     padding-top: .5rem;
     padding-bottom: .5rem;
@@ -114,7 +114,7 @@ footer {
 }
 
 .copyright {
-    background-color: #141414;
+    background-color: #2c2c2c;
     /*background-image: linear-gradient(to right, rgba(120, 66, 255, 1), rgba(105, 99, 212, 1) 20%, rgba(66, 255, 173, 1)) !important;*/
     /*background-image: linear-gradient(to right, rgba(86, 84, 209, 1), rgba(84, 209, 203, 1)) !important;*/
 }
@@ -280,6 +280,11 @@ h1.project-heading-title {
 }
 
 #human-word {
+  z-index: 3;
+  position:absolute;
+}
+
+#pencil {
   z-index: 3;
   position:absolute;
 }
