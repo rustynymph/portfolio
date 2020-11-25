@@ -27,18 +27,18 @@ function setup() {
 
     cnv = createCanvas(canvas_width, canvas_height);
     cnv.position(0, 0);
-    cnv.style('z-index', '-3');
+    cnv.style('z-index', '0');
     cnv.parent('canvascontainer');
-	background('rgba(250,250,250, 1)');
+	background('rgba(250,250,250, 0)');
 }
 
 function draw() {
     noStroke();
     clear();
-    blendMode(BLEND);
+    //blendMode(NORMAL);
     //background(0);
     //blendMode(ADD);
-	background('rgba(250,250,250, 1)');
+	background('rgba(250,250,250, 0)');
     //background('rgba(250,250,250, 1)');
     blendMode(MULTIPLY);
   
@@ -109,7 +109,7 @@ function windowResized() {
     }
 
     resizeCanvas(canvas_width, canvas_height);
-	background('rgba(250,250,250, 1)');
+	background('rgba(250,250,250, 0)');
 }
 
 
