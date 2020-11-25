@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Heart Flush</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/vendor/simple-line-icons/css/simple-line-icons.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:wght@700;800;900&family=Rock+Salt&family=Source+Code+Pro:wght@300&family=Abel&display=swap" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="/css/new-age.min.css" rel="stylesheet">
+  <link href="/css/style.css" rel="stylesheet">
+
+</head>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top mx-auto" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="/#page-top"><img class="banner-inits" src="/img/hearticon.png"></a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <!--MENU-->
+        <i class="fas fa-bars fa-lg"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#publications">Publications</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<body>
+
+  <header class="project-masthead heartflush">
+    <div class="container h-100" id="canvascontainer">
+      <div class="row h-100">
+        <div class="col-lg-12 my-auto">
+          <div class="header-content mx-auto">
+            <h1 class="project-heading-title">Heart Flush</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+<!-- Main Container -->
+<div class="container"> 
+
+	<section>
+
+        <h5 class="project-header">Heart Flush</h5>
+        <h5 class="project-header-sub">A heart rate activated toilet flusher</h5>
+
+        <p>
+            In 2019 I was commissioned by performing artist Michelle Ellsworth to create a heart rate activated toilet flusher for a performance.
+            You can find the code and wiring schematics in the <a href="https://github.com/rustynymph/heartflush" target="_blank">Github Repo</a>.
+        </p>
+
+            <br><img src="/img/flush.gif" width="400"><br>
+            <!--
+            
+        <p>
+            <b>Hardware</b><br>
+            <ul class="project-list">
+                <li>Arduino Uno Wifi Rev 2 (non-remote version works on regular Uno)</li>
+                <li>1 Servo (<a href="https://www.sparkfun.com/products/11965" target="_blank">Generic High Torque</a>)</li>
+                <li>3 <a href="https://pulsesensor.com/" target="_blank">Pulse Sensors</a></li>
+            </ul>
+        </p>
+            
+        <p>
+        
+            <b>Software</b><br>
+            Uses the Arduino <a href="https://www.arduino.cc/en/reference/servo" target="_blank">Servo</a> and <a href="https://github.com/WorldFamousElectronics/PulseSensorPlayground" target="_blank"></a>PulseSensorPlayground</a> libraries.
+            
+            #### Files
+            * [heartflush.ino](src/non-remote\ version/heartflush.ino) is the main Arduino project file for the pulse sensing and toilet flushing  
+            * [flushtest_onstart.ino](src/tests\ version/flushtest_onstart.ino) is for testing the flushing only, it will flush the toilet when the Arduino is powered on  
+        </p>
+        
+            ## Project diagram  
+            <img src="/img/diagram.jpg" width="400">
+
+              
+            The Arduino, servo, and pulse sensors are currently mounted on a 1"x4"x8" piece of wood that rests on top of the toilet tank. The Arduino is powered by 9V DC and the servo is powered externally with 6V DC. The tip of the servo horn is attached to the top of the toilet chain using some jewelry making chain.  
+            
+            <img src="/img/servoandchain.jpg" width="400">
+
+            
+            When the servo is in its default position of 0 degrees it does not pull on the toilet chain and arm, when it is flushing it flips to 180 degrees and tugs on the chain and arm, thus pulling up the toilet flapper and allowing the water in the tank to flush.  
+            
+            ## Wiring schematic  
+            ### Pulse activated version  
+            <img src="/img/pulseandservo.jpg" width="400">
+            
+
+            ### Pressure activated version  
+            <img src="/img/pressureandservo.jpg" width="400">
+        -->
+
+</section>
+	  
+
+</div>
+<!-- Main Container Ends -->
+</body>
+</html>

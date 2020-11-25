@@ -1,0 +1,153 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BlockyTalky</title>
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <!-- Favicon-->
+  <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+  <!-- Font Awesome icons (free version)-->
+  <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+  <!-- Google fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:wght@700;800;900&family=Rock+Salt&family=Source+Code+Pro:wght@300&family=Abel&family=Poppins:wght@900&display=swap" rel="stylesheet">
+  <!-- Core theme CSS (includes Bootstrap)-->
+  <link href="/css/styles.css" rel="stylesheet" />
+  <link href="/css/custom.css" rel="stylesheet" />
+
+</head>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg fixed-top mx-auto justify-content-md-center justify-content-start" id="mainNav">
+    <div class="container">
+      <!--<a class="navbar-brand js-scroll-trigger" href="#page-top"><img class="banner-inits" src="img/hearticon.png"></a>-->
+      
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <!--MENU-->
+        <i class="fas fa-bars fa-lg"></i>
+      </button>
+      <div class="collapse navbar-collapse w-100 justify-content-between align-items-center w-100" id="navbarResponsive">
+        <ul class="navbar-nav mx-auto text-md-center text-left">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#canvascontainer">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#publications">Publications</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<body>
+  <header class="project-masthead blockytalky">
+    <div class="container h-100" id="canvascontainer">
+      <div class="row h-100">
+        <div class="col-lg-12 my-auto">
+          <div class="header-content mx-auto">
+            <h1 class="project-heading-title">BlockyTalky</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+<!-- Main Container -->
+<div class="container"> 
+
+	<section>
+
+        <h5 class="project-header">BlockyTalky</h5>
+        <p>
+            BlockyTalky is a programming environment designed to make it easy for novice programmers to make interactive, networked physical computing devices. Kids as young as ten have used it to rapidly build a wide range of projects, from networked cat feeders to computer music systems.
+        </p>
+        
+        <p>
+            <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/200510313?portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+        </p>
+
+        <p>
+        The BlockyTalky programming language is easy to learn. We designed it to foster computational thinking and problem solving by offering a tight match between the way novice programmers describe the interactive systems that they want to make and how they can express those ideas through code. And our graphical programming language helps students to avoid syntax errors.
+        </p>
+
+        <p>
+        When I became the lead designer and developer of the BlockyTalky project I began to investigate how we could rethink the design to make it support adult artists and musicians who wanted to 
+        build interactive creative systems. Originally, BlockyTalky was designed for K-12 learning environments where students could build musical instruments controlled by physical sensors. To me, BlockyTalky had more potential than that.
+        To investigate this design space I took a mixed-method approach of naturalistic observation, surveys, focus groups, and one-on-one interviews. During this phase of research I identiified some ways new media artists were using interactive systems, such as visual jockeying (VJing), gestural music control, and wearable technology. The problem was that developing these systems can be expensive and incredibly complicated to the novice programmer. I decided to design high-level abstractions that would let artists send data from BlockyTalky sensors to outside creative software using Open Sound Control (OSC). This enabled BlockyTalky to connect to programs like Max/MSP, Unity, Processing, and more. 
+        </p>
+
+        <p>
+          I tested my new BlockyTalky designs by hosting a creative hackathon at the University of Colorado Boulder called Creative++. Monica Bolles and I designed the hackathon to be beginner-friendly and advertised the event to artists and musicians, as opposed to programmers and engineers. We introduced participants to the BlockyTalky environment, facilitated a project brainstorm session, led a group formation activity, and then gave groups twelve hours to build a project that used physical controls and sensors to create some type of musical or artistic output. 
+        </p>
+
+        <p>
+          <img src="/assets/img/creativepp1.jpg" height="200px">
+          <img src="/assets/img/creativepp2.jpg" height="200px">
+          <img src="/assets/img/creativepp3.jpg" height="200px">
+          <img src="/assets/img/creativepp4.jpg" height="200px">
+        </p>
+
+        <p>
+          We collected participants’ pre-screening information to provide us context for the demograph- ics of participants including their age, gender identity, college major or career and responses for their answers regarding why they want to participate and what they hope to learn. In addition, we conducted semi-structured interviews of participants, collected questionnaire responses, collected project documentation such as photos, code, and notes, and captured recordings of groups’ final presentations and performances. We gave participants the questionnaire at the end of the event, therefore a few people who left early did not have the opportunity to fill one out. The questionnaire asked identity- and project- specific questions like, “have you ever programmed something before this event?” “do you identify as a programmer?” “have you made art before?” “do you identify as an artist?” “what did your group make?” “what was your role on this project?” “what were your teammates’ roles?” and other questions asking about their opinions on the usability and experience of using BlockyTalky.
+        </p>
+
+        <p>
+          The addition of OSC to BlockyTalky enabled groups to create interfaces to control profes- sional artistic software like Max, Processing, and Unity instead of having to rely on the musical capabilities of the BlockyTalkys themselves. This ability to interoperate with more sophisticated software enabled the rapid construction and customization of live controllers for expression, demon- strating its potential beyond K-12 settings for use by adult creators.
+          As expected, the projects that participants created still required at least one technical expert on the team. However, all participants were able to contribute to some level of the technical implementations of their projects. The non-technologists tended to assume the design-oriented roles, and their roles in the technical implementation primarily involved programming sensor-based or musical events within the BlockyTalky environment. This allowed novices to have some control over the interaction design of the system, despite not being able to contribute to work that required more traditional text-based programming.
+
+        </p>
+
+        <h5 class="project-header-sub">Publications</h5>
+        <p>
+          <p class="publication">
+            <b><a href="https://www.sciencedirect.com/science/article/pii/S2212868918300394" target="_blank">BlockyTalky: New programmable tools to enable students’ learning of networks</a></b><br>
+            Annie Kelly, Lila Finch, Monica Bolles, &amp R. Benjamin Shapiro<br>
+            In Proceedings of the 2018 International Journal of Child-Computer Interaction
+          </p>
+
+          <p class="publication">
+            <b>BlockyTalky: A Prototyping Toolkit for Digital Musical Interfaces</b><br>
+            Annie Kelly, Monica Bolles, &amp R. Benjamin Shapiro<br>
+            A workshop facilitated at the 2017 International Conference on New Interfaces for Musical Expression
+          </p>
+
+          <p class="publication">
+            <b><a href="https://dl.acm.org/citation.cfm?id=3130153" target="_blank">BlockyTalky: Tangible Distributed Computer Music for Youth</a></b><br>
+            R. Benjamin Shapiro, Annie Kelly, Matthew Ahrens, et al<br>
+            Selected for the 2017 Computer Music Journal<br>
+          </p>
+
+          <p class="publication">
+            <b><a href="https://www.nime.org/proceedings/2016/nime2016_paper0084.pdf" target="_blank">BlockyTalky: A Physical and Distributed Computer Music Toolkit for Kids</a></b><br>
+            R. Benjamin Shapiro, Annie Kelly, Matthew Ahrens, &amp Rebecca Fiebrink<br>
+            In Proceedings of the 2016 International Conference on New Interfaces for Musical Expression
+          </p>
+        </p>
+
+
+</section>
+    
+</div>
+
+<div class="copyright py-4 text-center text-white"></div>
+<!-- Main Container Ends -->
+</body>
+</html>
