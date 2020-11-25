@@ -35,7 +35,7 @@ span.letter-interactive {
 }
 
 span.letter-interactive:hover {
-  color: #141414;
+  color: #222222;
   -webkit-text-stroke: 1px #fafafa;
 }
 
@@ -134,7 +134,7 @@ footer {
 }
 
 a.svg-blob-link .cls-1 {
-  fill: #141414;
+  fill: #222222;
   transition: 0.3s;
 }
 
@@ -154,16 +154,16 @@ a.svg-blob-link .cls-3 {
 
 a.svg-blob-link:hover .cls-1 {
   fill: #FFFFFF;
-  stroke:#141414;
+  stroke:#222222;
   stroke-width:2px;
 }
 
 a.svg-blob-link:hover .cls-2 {
-  fill: #141414;
+  fill: #222222;
 }
 
 a.svg-blob-link:hover .cls-3 {
-  stroke:#141414;
+  stroke:#222222;
 }
 
 .svg-blob {
@@ -248,7 +248,7 @@ h2.portfolio-item-title {
 }
 
 p.portfolio-item-keywords {
-    color: #747272;
+    color: #353535;
     font-size: .85rem;
     padding-bottom: 0;
     font-weight: 100;
@@ -297,6 +297,13 @@ h1.project-heading-title {
 #inits-img {
   position: relative;
   z-index: 1;
+}
+
+#user-word {
+  text-decoration: line-through;
+  color: #222222;
+  -webkit-text-stroke: 1px #fafafa;
+
 }
 
 #human-word {
