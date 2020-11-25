@@ -17,6 +17,7 @@ function setup() {
     cnv.style('z-index', '-3');
     cnv.parent('canvascontainer');
 
+	//background('rgba(250,250,250, 1)');
 	background('rgba(250,250,250, 1)');
 }
 
@@ -26,17 +27,21 @@ function draw() {
     blendMode(BLEND);
     //background(0);
     //blendMode(ADD);
-    background('rgba(250,250,250, 1)');
+	background('rgba(250,250,250, 1)');
+    //background('rgba(250,250,250, 1)');
     blendMode(MULTIPLY);
   
+  //fill(0, 0, 255);
   fill(0, 255, 255);
   //blob(100, width/6 + noise(t/2) * 200 - 100, height/2 + noise(t/2 + 1) * 200 - 100, 0.75, t);
   blob(100, centerX+ noise(t/2) * 200 - 100, centerY + noise(t/2 + 1) * 200 - 100, 0.75, t);
   
+  //fill(255, 0, 0);
   fill(255, 0, 255);
   //blob(100, width/6 + noise(t/2 + 2) * 200 - 100, height/2 + noise(t/2 + 3) * 200 - 100, 0.75, t + 1);
   blob(100, centerX + noise(t/2 + 2) * 200 - 100, centerY + noise(t/2 + 3) * 200 - 100, 0.75, t + 1);
   
+  //fill(0, 255, 0);
   fill(255, 255, 0);
   //blob(100, width/6 + noise(t/2 + 4) * 200 - 100, height/2 + noise(t/2 + 5) * 200 - 100, 0.75, t + 2);
   blob(100, centerX + noise(t/2 + 4) * 200 - 100, centerY + noise(t/2 + 5) * 200 - 100, 0.75, t + 2);
@@ -80,5 +85,11 @@ function windowResized() {
     centerX = header.offsetLeft + header.offsetWidth / 2;
     centerY = header.offsetTop + header.offsetHeight / 2; 
     resizeCanvas(canvas_width, canvas_height);
+	//background('rgba(250,250,250, 1)');
 	background('rgba(250,250,250, 1)');
+}
+
+function mouseMoved(){
+    fill('rgba(255,255,255, 1)');
+    ellipse(mouseX, mouseY, 10);
 }

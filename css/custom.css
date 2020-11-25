@@ -109,9 +109,41 @@ footer {
     /*background-image: linear-gradient(to right, rgba(86, 84, 209, 1), rgba(84, 209, 203, 1)) !important;*/
 }
 
+a.svg-blob-link .cls-1 {
+  fill: #141414;
+  transition: 0.3s;
+}
+
+a.svg-blob-link .cls-2 {
+  fill: #FFFFFF;
+  transition: 0.3s;
+}
+
+a.svg-blob-link .cls-3 {
+  fill:none;
+  stroke:#fff;
+  stroke-linecap:round;
+  stroke-miterlimit:10;
+  stroke-width:2px;
+  transition: 0.3s;
+}
+
+a.svg-blob-link:hover .cls-1 {
+  fill: #FFFFFF;
+  stroke:#141414;
+  stroke-width:2px;
+}
+
+a.svg-blob-link:hover .cls-2 {
+  fill: #141414;
+}
+
+a.svg-blob-link:hover .cls-3 {
+  stroke:#141414;
+}
 
 .svg-blob {
-  width: 120px;
+  width: 140px;
   padding: 0;
   margin: 0;
 }
@@ -232,6 +264,15 @@ h1.project-heading-title {
     font-family: 'Poppins', 'Helvetica', 'Arial', 'sans-serif';
     font-size: 4rem;  
   }
+
+#user-word {
+
+}
+
+#human-word {
+  z-index: 3;
+  position:absolute;
+}
 
 .publication {
     font-size: .8rem;
