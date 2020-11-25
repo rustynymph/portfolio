@@ -23,8 +23,17 @@ a.nav-link {
     font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
     letter-spacing: 2px;
     text-transform: uppercase;
-    font-weight: 200 !important;
+    font-weight: lighter !important;
     font-size: .8rem;
+}
+
+span.letter-interactive {
+  color: #141414;
+  transition: 0.2s;    
+}
+
+span.letter-interactive:hover {
+  color: #fafafa;
 }
 
 a.nav-link:hover {
