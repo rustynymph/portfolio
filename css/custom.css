@@ -118,19 +118,17 @@ footer {
 
 a.svg-link {
   text-decoration: none;
-  text-transform: uppercase;
+  text-transform: lowercase;
   font-size: 14px;
 }
 
 a.svg-link path {
-  fill: #a0ffff;
-  stroke: #141414;
-  stroke-width: 2px;
+  fill: #141414;
   transition: 0.3s;
 }
 
 a.svg-link text {
-  fill: #141414;
+  fill: #FFFFFF;
   transition: 0.3s;
 }
 
@@ -139,11 +137,13 @@ a.svg-link:hover {
 }
 
 a.svg-link:hover path{
-  fill: #141414;
+  fill: #FFFFFF;
+  stroke: #141414;
+  stroke-width: 2px;
 }
 
 a.svg-link:hover text {
-  fill: #FFFFFF;
+  fill: #141414;
 }
 
 
