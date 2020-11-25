@@ -221,9 +221,7 @@ h1.intro-text {
     z-index: 1;
 }
 
-.intro-img {
-  z-index: 1;
-}
+
 
 h2.portfolio-item-title {
     font-family: 'Abel', 'Helvetica Neue', Arial, sans-serif;
@@ -275,8 +273,9 @@ h1.project-heading-title {
     font-size: 4rem;  
   }
 
-#user-word {
 
+#inits-img {
+  position: relative;
 }
 
 #human-word {
