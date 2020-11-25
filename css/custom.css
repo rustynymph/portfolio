@@ -37,6 +37,10 @@ span.letter-interactive:hover {
   -webkit-text-stroke: 1px black;
 }
 
+.navbar-toggler {
+  color: #fafafa;
+}
+
 a.nav-link:hover {
     color:  rgba(255, 255, 255, .5) !important;    
 }
