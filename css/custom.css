@@ -111,17 +111,26 @@ footer {
 
 
 .svg-blob {
-  width: 30%;
+  width: 120px;
   padding: 0;
   margin: 0;
 }
 
 a.svg-link {
   text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
 }
 
 a.svg-link path {
-  fill: #FF0066;
+  fill: #a0ffff;
+  stroke: #141414;
+  stroke-width: 2px;
+  transition: 0.3s;
+}
+
+a.svg-link text {
+  fill: #141414;
   transition: 0.3s;
 }
 
@@ -131,6 +140,10 @@ a.svg-link:hover {
 
 a.svg-link:hover path{
   fill: #141414;
+}
+
+a.svg-link:hover text {
+  fill: #FFFFFF;
 }
 
 
