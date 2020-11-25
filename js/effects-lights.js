@@ -67,6 +67,9 @@ function draw() {
 // at time t (for evolution)
 
 function blob(size, xCenter, yCenter, k, t) {
+  //var dist = distance(mouseX, mouseY, xCenter, yCenter);
+  //var multXY = map(dist, 0, 500, .8, 1);
+
   beginShape();
   for (let theta = 0; theta < 2 * PI; theta += 0.01) {
     let r1, r2;
@@ -107,4 +110,9 @@ function windowResized() {
 
     resizeCanvas(canvas_width, canvas_height);
 	background('rgba(250,250,250, 1)');
+}
+
+
+function distance(x1, y1, x2, y2) {
+    return Math.sqrt((Math.pow((x2-x1), 2))-(Math.pow((y2-y1), 2)));
 }

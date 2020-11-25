@@ -23,7 +23,7 @@ a.nav-link {
     font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
     letter-spacing: 2px;
     text-transform: uppercase;
-    font-weight: lighter !important;
+    font-weight: 300 !important;
     font-size: .8rem;
 }
 
@@ -229,9 +229,10 @@ h2.portfolio-item-title {
 }
 
 p.portfolio-item-keywords {
-    color: #a0a0a0;
+    color: #747272;
     font-size: .85rem;
     padding-bottom: 0;
+    font-weight: 100;
 }
 
 .skill-category {
@@ -292,6 +293,10 @@ h1.project-heading-title {
     font-size: .8rem;
 }
 
+.portfolio-item-description {
+  font-weight: 300;
+}
+
 .project-header {
     color: #141414;
     font-family: 'Abel', 'Helvetica Neue', Arial, sans-serif;
@@ -324,6 +329,7 @@ h6.casestudy-subhead {
 
 .header-description {
     text-shadow: 2px 2px 8px #fafafa;
+    font-weight: 300;
     z-index: 1;
 }
 
