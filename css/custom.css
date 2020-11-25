@@ -1,5 +1,5 @@
 .masthead {
-    background-color: #f1f1f1;
+    background-color: #222222;
     color: #141414 !important;
     padding-top: calc(4rem + 74px);
     padding-bottom: 5rem;
@@ -30,13 +30,13 @@ a.nav-link {
 }
 
 span.letter-interactive {
-  color: #141414;
+  color: #fafafa;
   transition: 0.2s;    
 }
 
 span.letter-interactive:hover {
-  color: #fafafa;
-  -webkit-text-stroke: 1px black;
+  color: #141414;
+  -webkit-text-stroke: 1px #fafafa;
 }
 
 .navbar-toggler {
@@ -57,8 +57,8 @@ a.nav-link:hover {
   }
 
 #skills {
-    background-color: #f1f1f1 !important;
-    color: #141414 !important;
+    background-color: #222222 !important;
+    color: #fafafa !important;
     border-bottom-left-radius:50%;
     border-bottom-right-radius:0%;
     border-top-left-radius:0%;
@@ -121,8 +121,8 @@ button.portfolio-button:hover {
 }
 
 footer {
-    background-color: #f1f1f1 !important;
-    color: #141414 !important;
+    background-color: #222222 !important;
+    color: #fafafa !important;
     border-top-left-radius:30%;
     border-top-right-radius:30%;
 }
@@ -238,6 +238,7 @@ h1.intro-text {
     font-size: 4rem;
     z-index: 1;
     position: relative; 
+    color: #fafafa;
 }
 
 
@@ -347,7 +348,8 @@ h6.casestudy-subhead {
   }
 
 .header-description {
-    text-shadow: 2px 2px 8px #f1f1f1;
+    color: #fafafa;
+    text-shadow: 2px 2px 8px #222222;
     font-weight: 300;
     z-index: 1;
     position: relative; 

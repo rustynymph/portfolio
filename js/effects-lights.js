@@ -40,20 +40,20 @@ function draw() {
     //blendMode(ADD);
 	background('rgba(250,250,250, 0)');
     //background('rgba(250,250,250, 1)');
-    blendMode(MULTIPLY);
+    blendMode(ADD);
   
-    //fill(0, 0, 255);
-    fill(0, 255, 255);
+    fill(0, 0, 255);
+    //fill(0, 255, 255);
     //blob(100, width/6 + noise(t/2) * 200 - 100, height/2 + noise(t/2 + 1) * 200 - 100, 0.75, t);
     blob(100, centerInitsX+ noise(t/2) * 200 - 100, centerInitsY + noise(t/2 + 1) * 200 - 100, 0.75, t);
     
-    //fill(255, 0, 0);
-    fill(255, 0, 255);
+    fill(255, 0, 0);
+    //fill(255, 0, 255);
     //blob(100, width/6 + noise(t/2 + 2) * 200 - 100, height/2 + noise(t/2 + 3) * 200 - 100, 0.75, t + 1);
     blob(100, centerInitsX + noise(t/2 + 2) * 200 - 100, centerInitsY + noise(t/2 + 3) * 200 - 100, 0.75, t + 1);
     
-    //fill(0, 255, 0);
-    fill(255, 255, 0);
+    fill(0, 255, 0);
+    //fill(255, 255, 0);
     //blob(100, width/6 + noise(t/2 + 4) * 200 - 100, height/2 + noise(t/2 + 5) * 200 - 100, 0.75, t + 2);
     blob(100, centerInitsX + noise(t/2 + 4) * 200 - 100, centerInitsY + noise(t/2 + 5) * 200 - 100, 0.75, t + 2);
     
