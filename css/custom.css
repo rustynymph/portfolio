@@ -1,5 +1,9 @@
+body {
+  background-color: #fff0f5;
+}
+
 .masthead {
-    background-color: #222222;
+    background-color: #0b1036;
     color: #141414 !important;
     padding-top: calc(4rem + 74px);
     padding-bottom: 5rem;
@@ -15,7 +19,7 @@ header.project-masthead {
 
 #mainNav {
     background-color: #2c2c2c !important;
-    /*background-image: linear-gradient(to right, rgba(120, 66, 255, 1), rgba(105, 99, 212, 1) 20%, rgba(66, 255, 173, 1)) !important;*/
+    background-image: linear-gradient(to right, rgba(0, 11, 107, 1), rgba(61, 35, 118, 1) 75%, rgba(237, 107, 150, 1)) !important;
     padding-top: .5rem;
     padding-bottom: .5rem;
   }
@@ -30,13 +34,13 @@ a.nav-link {
 }
 
 span.letter-interactive {
-  color: #fafafa;
+  color: #fff0f5;
   transition: 0.2s;    
 }
 
 span.letter-interactive:hover {
-  color: #222222;
-  -webkit-text-stroke: 1px #fafafa;
+  color: #0b1036;
+  -webkit-text-stroke: 1px #fff0f5;
 }
 
 .navbar-toggler {
@@ -57,7 +61,7 @@ a.nav-link:hover {
   }
 
 #skills {
-    background-color: #222222 !important;
+    background-color: #0b1036 !important;
     color: #fafafa !important;
     border-bottom-left-radius:50%;
     border-bottom-right-radius:0%;
@@ -65,6 +69,10 @@ a.nav-link:hover {
     border-top-right-radius:50%;
     padding-top: calc(2rem + 74px);
     padding-bottom: calc(4rem + 74px);
+    background-image: url("/assets/img/workfromhomecat-transparent.png");
+    background-position: right bottom; /*Positioning*/
+    background-repeat: no-repeat; /*Prevent showing multiple background images*/
+    background-size: 678px 300px;
 }
 
 #publications {
@@ -121,31 +129,36 @@ button.portfolio-button:hover {
 }
 
 footer {
-    background-color: #222222 !important;
+    background-color: #0b1036 !important;
     color: #fafafa !important;
     border-top-left-radius:30%;
     border-top-right-radius:30%;
 }
 
+.footer-text {
+  color: #fafafa;
+}
+
 .copyright {
-    background-color: #2c2c2c;
+    background-image: linear-gradient(to right, rgba(0, 11, 107, 1), rgba(61, 35, 118, 1) 75%, rgba(237, 107, 150, 1)) !important;
+
     /*background-image: linear-gradient(to right, rgba(120, 66, 255, 1), rgba(105, 99, 212, 1) 20%, rgba(66, 255, 173, 1)) !important;*/
     /*background-image: linear-gradient(to right, rgba(86, 84, 209, 1), rgba(84, 209, 203, 1)) !important;*/
 }
 
 a.svg-blob-link .cls-1 {
-  fill: #222222;
+  fill: #0b1036;
   transition: 0.3s;
 }
 
 a.svg-blob-link .cls-2 {
-  fill: #FFFFFF;
+  fill: #fff0f5;
   transition: 0.3s;
 }
 
 a.svg-blob-link .cls-3 {
   fill:none;
-  stroke:#fff;
+  stroke:#fff0f5;
   stroke-linecap:round;
   stroke-miterlimit:10;
   stroke-width:2px;
@@ -153,17 +166,17 @@ a.svg-blob-link .cls-3 {
 }
 
 a.svg-blob-link:hover .cls-1 {
-  fill: #FFFFFF;
-  stroke:#222222;
-  stroke-width:2px;
+  fill: #fff0f5;
+  stroke:#0b1036;
+  stroke-width:3px;
 }
 
 a.svg-blob-link:hover .cls-2 {
-  fill: #222222;
+  fill: #0b1036;
 }
 
 a.svg-blob-link:hover .cls-3 {
-  stroke:#222222;
+  stroke:#0b1036;
 }
 
 .svg-blob {
@@ -204,7 +217,7 @@ a.svg-link:hover text {
 
 .portfolio {
   border-bottom-right-radius:50%;
-  background-color: #ffffff;
+  background-color: #fff0f5;
 }
 
 .portfolio .portfolio-item .portfolio-item-caption {
@@ -223,14 +236,14 @@ a.svg-link:hover text {
     font-size: 1.25rem;
     justify-content: center;
     align-items: center;
-    color: #141414 !important;
-    border-color: #141414;
+    color: #0b1036 !important;
+    border-color: #6b73b3;
     transition: 0.3s;
-    background-color: rgba(113, 180, 235, 1);
+    background-color: #ffd1e0;
 }
 
 .btn-social:hover {
-  background-color: rgba(113, 215, 235, 1);
+  background-color: #fff0f5;
 }
 
 h1.intro-text {
@@ -238,17 +251,23 @@ h1.intro-text {
     font-size: 4rem;
     z-index: 1;
     position: relative; 
-    color: #fafafa;
+    color: #fff0f5;
 }
 
 
 h2.portfolio-item-title {
     font-family: 'Abel', 'Helvetica Neue', Arial, sans-serif;
     font-size: 2.5rem;
+    color: #0b1036;
+}
+
+.portfolio-item-description {
+  font-weight: 300;
+  color: #0b1036;
 }
 
 p.portfolio-item-keywords {
-    color: #353535;
+    color: #363d75;
     font-size: .85rem;
     padding-bottom: 0;
     font-weight: 100;
@@ -259,13 +278,17 @@ p.portfolio-item-keywords {
 }
 
 p.publication a {
-    color: rgba(113, 180, 235, 1);
+    color: rgba(0, 11, 107, 1);
     transition: 0.3s;
 }
 
 p.publication a:hover {
-    color: rgba(113, 215, 235, 1);
+    color: #9e4b88;
     transition: 0.3s;
+}
+
+.publications-header {
+  color: #0b1036;
 }
 
 figure {
@@ -273,21 +296,21 @@ figure {
   }
   
 .caption {
-    color: #141414;
+    color: #0b1036;
     font-family: 'Open Sans', 'Helvetica', 'Arial', 'sans-serif';
     font-size: .7rem;
     text-align: center;
 }
 
 h1.project-heading-title {
-    color: rgba(255, 255, 255, .9);
+    color: rgba(255, 240, 245, .9);
     text-align: center;
     font-family: 'Poppins', 'Helvetica', 'Arial', 'sans-serif';
     font-size: 4rem;  
   }
 
   h1.project-heading-title-dark {
-    color: rgba(14, 14, 14, .9);
+    color: rgba(11, 16, 54, .9);
     text-align: center;
     font-family: 'Poppins', 'Helvetica', 'Arial', 'sans-serif';
     font-size: 4rem;  
@@ -301,8 +324,8 @@ h1.project-heading-title {
 
 #user-word {
   text-decoration: line-through;
-  color: #222222;
-  -webkit-text-stroke: 1px #fafafa;
+  color: #0b1036;
+  -webkit-text-stroke: 1px #fff0f5;
 
 }
 
@@ -318,21 +341,18 @@ h1.project-heading-title {
 
 .publication {
     font-size: .8rem;
-}
-
-.portfolio-item-description {
-  font-weight: 300;
+    color: #0b1036;
 }
 
 .project-header {
-    color: #141414;
+    color: #0b1036;
     font-family: 'Abel', 'Helvetica Neue', Arial, sans-serif;
     font-size: 2.5rem;
     padding-top: 25px;
   }
   
 .project-header-sub {
-    color: #141414;
+    color: #0b1036;
     font-family: 'Open SansS', 'Helvetica Neue', Arial, sans-serif;
     font-size: 2rem;  
     font-style: italic;
@@ -345,12 +365,13 @@ h1.project-heading-title {
     padding-bottom: 20px;
     font-size: 1rem;
     font-weight: light;
+    color: #0b1036;
 }
 
 h6.casestudy-subhead {
     font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
     font-size: 1.25rem;
-    color: #141414;
+    color: #0b1036;
     font-weight: bold;
   }
 
