@@ -6,9 +6,13 @@ body {
     background-color: #0b1036;
     color: #141414 !important;
     padding-top: calc(4rem + 74px);
-    padding-bottom: 5rem;
+    padding-bottom: 11rem;
     border-bottom-left-radius:50%;
     border-bottom-right-radius:0%;
+    background-image: url("/assets/img/workfromhomecat3.png");
+    background-position: right bottom; /*Positioning*/
+    background-repeat: no-repeat; /*Prevent showing multiple background images*/
+    background-size: 678px 300px;
 }
 
 header.project-masthead {
@@ -63,16 +67,17 @@ a.nav-link:hover {
 #skills {
     background-color: #0b1036 !important;
     color: #fff0f5 !important;
+    font-size: .8rem;
     border-bottom-left-radius:50%;
     border-bottom-right-radius:0%;
     border-top-left-radius:0%;
     border-top-right-radius:50%;
     padding-top: calc(2rem + 74px);
     padding-bottom: calc(4rem + 74px);
-    background-image: url("/assets/img/workfromhomecat-transparent2.png");
-    background-position: right bottom; /*Positioning*/
-    background-repeat: no-repeat; /*Prevent showing multiple background images*/
-    background-size: 678px 300px;
+    /*background-image: url("/assets/img/workfromhomecat3.png");*/
+    /*background-position: right bottom; */
+    /*background-repeat: no-repeat; */
+    /*background-size: 678px 300px; */
 }
 
 #publications {
