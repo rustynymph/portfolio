@@ -69,7 +69,7 @@ a.nav-link:hover {
     border-top-right-radius:50%;
     padding-top: calc(2rem + 74px);
     padding-bottom: calc(4rem + 74px);
-    background-image: url("/assets/img/workfromhomecat-transparent.png");
+    background-image: url("/assets/img/workfromhomecat-transparent2.png");
     background-position: right bottom; /*Positioning*/
     background-repeat: no-repeat; /*Prevent showing multiple background images*/
     background-size: 678px 300px;
