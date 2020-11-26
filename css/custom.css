@@ -532,4 +532,8 @@ header.project-masthead.arcadia {
       border-top-left-radius:0%;
       border-top-right-radius:0%;
     }
+    h1.intro-text {
+      font-family: 'Poppins', 'Helvetica Neue', Arial, sans-serif;
+      font-size: 3rem;
+    }
   }
