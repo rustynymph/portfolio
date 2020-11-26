@@ -515,3 +515,20 @@ header.project-masthead.arcadia {
       border-bottom-right-radius:30%;
     }
   }
+
+  @media (max-width: 650px) {
+    .masthead {
+      border-bottom-left-radius:0%;
+      border-bottom-right-radius:0%;
+    }
+    footer {
+      border-top-left-radius:0%;
+      border-top-right-radius:0%;
+    }
+    .skills {
+      border-bottom-left-radius:0%;
+      border-bottom-right-radius:0%;
+      border-top-left-radius:0%;
+      border-top-right-radius:0%;
+    }
+  }
