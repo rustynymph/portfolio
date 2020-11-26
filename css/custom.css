@@ -44,7 +44,7 @@ span.letter-interactive:hover {
 }
 
 .navbar-toggler {
-  color: #fafafa;
+  color: #fff0f5;
 }
 
 a.nav-link:hover {
@@ -56,13 +56,13 @@ a.nav-link:hover {
     background: none;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
-    color: #fff;
+    color: #fff0f5;
     background: none;
   }
 
 #skills {
     background-color: #0b1036 !important;
-    color: #fafafa !important;
+    color: #fff0f5 !important;
     border-bottom-left-radius:50%;
     border-bottom-right-radius:0%;
     border-top-left-radius:0%;
@@ -76,7 +76,7 @@ a.nav-link:hover {
 }
 
 #publications {
-    color: #141414 !important;
+    color: #0b1036 !important;
 }
 
 img.rounded {
@@ -84,9 +84,9 @@ img.rounded {
   }
 
 a.portfolio-link-button {
-    background-color: rgba(113, 180, 235, 1);
-    border: none;
-    color: white;
+    background-color: #0b1036;
+    border: 2px solid #0b1036;
+    color: #fff0f5;
     padding: 10px;
     text-align: center;
     text-decoration: none;
@@ -98,16 +98,18 @@ a.portfolio-link-button {
 }
 
 a.portfolio-link-button:hover {
-    background-color: rgba(113, 215, 235, 1);
+    background-color:#fff0f5;
+    color: #0b1036;
+    border: 2px solid #0b1036;
 }
 
 a.custom-link {
-  color: rgba(113, 180, 235, 1);
-  transition: 0.3s;    
+  color: rgba(237, 107, 150, 1);
+  transition: 0.3s; 
 }
 
 a.custom-link:hover {
-  color: rgba(113, 215, 235, 1);
+  color: rgba(0, 11, 107, 1);
 }
 
 button.portfolio-button {
@@ -284,7 +286,6 @@ p.publication a {
 
 p.publication a:hover {
     color: #9e4b88;
-    transition: 0.3s;
 }
 
 .publications-header {
