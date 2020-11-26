@@ -238,14 +238,16 @@ a.svg-link:hover text {
     font-size: 1.25rem;
     justify-content: center;
     align-items: center;
-    color: #0b1036 !important;
-    border-color: #6b73b3;
+    color: #ffd1e0 !important;
+    border-color: #ffd1e0;
+    background-color: rgba(255, 240, 245, .0);
     transition: 0.3s;
-    background-color: #ffd1e0;
 }
 
 .btn-social:hover {
-  background-color: #fff0f5;
+  background-color: #ffd1e0;
+  color: #0b1036 !important;
+  border-color: #0b1036;
 }
 
 h1.intro-text {
